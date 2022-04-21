@@ -1,0 +1,1 @@
+export const host = process.env.NODE_ENV === 'production'? '/api' : 'http://81.20.255.252:3000'
