@@ -7,11 +7,6 @@ import Music from '../views/Music.vue'
 import Web from '../views/Web.vue'
 import Game from '../views/Game.vue'
 import Fujiu from '../views/Fujiu.vue'
-import Fujiu1 from '../views/Fujiu1.vue'
-import Fujiu2 from '../views/Fujiu2.vue'
-import Fujiu3 from '../views/Fujiu3.vue'
-import Fujiu4 from '../views/Fujiu4.vue'
-import Fujiu5 from '../views/Fujiu5.vue'
 import Fujiufooter from './../components/Fujiufooter.vue'
 import Html from './../views/Html.vue'
 import Htmlpage from './../views/Htmlpage.vue'
@@ -100,31 +95,6 @@ const routes = [
     path: '/htmlpage/:id',
     name: 'Htmlpage',
     component: Htmlpage
-  },
-  {
-    path: '/guanyufujiu',
-    name: 'Fujiu1',
-    component: Fujiu1
-  },
-  {
-    path: '/chanpinzhanshi',
-    name: 'Fujiu2',
-    component: Fujiu2
-  },
-  {
-    path: '/xinwenzixun',
-    name: 'Fujiu3',
-    component: Fujiu3
-  },
-  {
-    path: '/anquanzhanshi',
-    name: 'Fujiu4',
-    component: Fujiu4
-  },
-  {
-    path: '/lianxiwomen',
-    name: 'Fujiu5',
-    component: Fujiu5
   },
   {
     path: '/fujiufooter',

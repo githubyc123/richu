@@ -13,11 +13,11 @@
       <div v-if="headerwidth>450">
         <!-- <img src="./../assets/fujiu/logo.png" alt=""> -->
         <a href="/#/fujiu">首页</a>
-        <a href="/#/guanyufujiu">关于富久</a>
-        <a href="/#/chanpinzhanshi">产品展示</a>
-        <a href="/#/xinwenzixun">新闻资讯</a>
-        <a href="/#/anquanzhanshi">安全展示</a>
-        <a href="/#/lianxiwomen">联系我们</a>
+        <a>关于富久</a>
+        <a>产品展示</a>
+        <a>新闻资讯</a>
+        <a>安全展示</a>
+        <a>联系我们</a>
       </div>
       
       <el-dropdown v-else>

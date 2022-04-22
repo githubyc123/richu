@@ -4,7 +4,7 @@
     <div>
       <!-- 电脑轮播图 -->
       <div v-if="homeheaderwidth>550" class="banner">
-        <el-carousel :interval="2600" type="card" height="333px">
+        <el-carousel :interval="2600" type="card" height="380px">
           <el-carousel-item v-for="(item,i) in banner" :key="i">
             <!-- <h3 class="medium">{{ item }}</h3> -->
             <img v-lazy="item.img" alt="">

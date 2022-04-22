@@ -508,7 +508,7 @@ input:active{
 } */
 .cal{
   position:fixed;
-  background-color: rgba(83, 80, 80, 0.288);
+  background-color: rgba(187, 184, 184, 0.779);
   border-radius: 13px ;
   right: 5px;
   bottom: 15%;
